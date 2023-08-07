@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LGXWXKPuPAAd0iNJQiqDDPlTQjcyN5s+zfU8GlNqbIvufiCZ4zKa392Uw8Sm6XZtTfi6hSh8I5ZDsrsNGuAM5g==",
+  "dgSpecHash": "NIXoZplChOuZT6HcUchPlfKi3yE4HaCq7AMSU4+pMGBMQytENGR617zyuEGFvvL7/pZUA7zsWoMR4ERx0ohPpg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj",
+  "projectFilePath": "C:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
