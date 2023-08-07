@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj": {}
+    "c:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj": {
+    "c:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj",
+        "projectUniqueName": "c:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj",
         "projectName": "FizzBuzz",
-        "projectPath": "C:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj",
+        "projectPath": "c:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\FizzBuzz.csproj",
         "packagesPath": "C:\\Users\\ArdKur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\obj\\",
+        "outputPath": "c:\\Users\\ArdKur\\Training\\fizzbuz-c#\\FizzBuzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ArdKur\\AppData\\Roaming\\NuGet\\NuGet.Config"
