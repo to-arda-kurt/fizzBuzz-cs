@@ -66,14 +66,9 @@ public class FizzBuzzer
 
     public static bool IsDividible(int fizzBuzzNumber, int divider) => (fizzBuzzNumber % divider) == 0;
 
-    public static void StartFizzBuzz(int max)
-    {
-        for (var i = 1; i <= max; i++)
-        {
-            Console.WriteLine(FizzBuzz(i));
-        }
+    public static void OneLiner(int max){
+        for(var i = 1; i <= max; i++) Console.WriteLine((i%15)== 0  ? "FizzBuzz" : (i%3)== 0 ? "Fizz" : (i%5)== 0 ? "Buzz" : (i%7)== 0 ? "Bang" : i.ToString());
     }
-
 
     public static bool StartsWith(string word)
     {
@@ -83,24 +78,28 @@ public class FizzBuzzer
     public static int AskNumber(string[] args)
     {
         bool result;
-        string maxInput;
-        int max = 200;
-
+        string? maxInput;
+        int max;
         do
         {
             Console.WriteLine("Enter max number:");
             maxInput = Console.ReadLine();
             result = int.TryParse(maxInput, out max);
-
         } while (!result);
-
 
         foreach (var rule in args)
         {
             rules.Add(int.Parse(rule));
         }
-
-
+        Console.WriteLine("FizBuzz running...");
         return max;
+    }
+
+    public static void StartFizzBuzz(int max)
+    {
+        for (var i = 1; i <= max; i++)
+        {
+            Console.WriteLine(FizzBuzz(i));
+        }
     }
 }
